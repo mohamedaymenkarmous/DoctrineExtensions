@@ -132,13 +132,13 @@ class Logs extends AbstractLogEntry
 {
 }
 ```
-And then add to you Entity (ex. Article) next annotations:
+And then add to your Entity (ex. Article) next annotations:
 - **@Gedmo\Loggable(logEntryClass="AppBundle\Entity\Logs")**
 
 Choose fields that you need to logging in next way:
 - **@Gedmo\Versioned**
 
-Add don't forget to update scheme.
+And don't forget to update scheme.
 
 <a name="document-mapping"></a>
 
